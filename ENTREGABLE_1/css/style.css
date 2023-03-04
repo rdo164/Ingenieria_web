@@ -1,0 +1,15 @@
+div{
+    display: block;
+}
+footer{
+    display: flex;
+    background-color: black;
+}
+.Informacion,.contact{
+    color: white;
+}
+/** solo los titulos de h1 dentro del footer**/
+footer h1, p{
+    font-family: var;
+    color: white;
+}

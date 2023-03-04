@@ -1,0 +1,19 @@
+.container {
+    background-color: green ;
+    display: flex;
+    padding: 1em;
+    margin-bottom: 20px;
+}
+
+.container-column{
+    flex-direction: column;
+    display: flex;
+    padding: 1em;
+    margin-bottom: 20 px;
+    border-color: azure;
+}
+
+
+.item{
+    flex-basis: 100 px;
+}

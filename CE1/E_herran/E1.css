@@ -1,0 +1,64 @@
+ul{
+display: flex;
+}
+.titulo {
+    position: absolute;
+    top: 50%; /* Ajusta la posición vertical del título */
+    left: 50%;
+    transform: translateX(-50%);
+    /* Aquí usamos propiedades de posicionamiento para centrar horizontalmente el título dentro de la imagen de fondo */
+    text-align: center;
+    font-size: 3em;
+    color: rgb(19, 5, 5);
+    background-color: white; /* Agregamos un fondo blanco al título */
+    padding: 10px; /* Agregamos un relleno para que el texto no esté pegado al borde del fondo blanco */
+    border-radius: 5px; /* Agregamos bordes redondeados para el fondo blanco */
+  }
+  body {
+    background: url(http://materplat.org/wp-content/uploads/CTME-1024x379.jpg) no-repeat center center fixed;
+    /* Aquí combinamos las propiedades para establecer la imagen de fondo y centrarla */
+    background-size: cover; /* Esta propiedad hace que la imagen se ajuste al tamaño del navegador */
+    margin: 0; /* Establecemos el margen en 0 para que no haya espacio entre el borde del navegador y la imagen */
+  }
+  
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    padding: 10px 20px;
+  }
+
+  #logo {
+    width: 150px;
+    height: auto;
+  }
+
+  nav {
+    display: flex;
+    align-items: center;
+  }
+
+  nav ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  nav ul li {
+    margin: 0 10px;
+  }
+
+  nav ul li a {
+    text-decoration: none;
+    color: black;
+  }
+
+  #buscador {
+    width: 300px;
+    height: 30px;
+    border-radius: 5px;
+    border: none;
+    padding: 5px;
+  }
